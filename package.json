@@ -1,0 +1,26 @@
+{
+  "name": "playwright-mcp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/client.ts",
+    "build": "tsc",
+    "start:built": "node dist/client.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "eventsource": "^4.1.0",
+    "ollama": "^0.6.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/eventsource": "^1.1.15",
+    "@types/node": "^25.3.5",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

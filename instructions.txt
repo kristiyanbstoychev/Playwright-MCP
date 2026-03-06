@@ -1,0 +1,8 @@
+Navigate to http://host.docker.internal:8080.
+Then click the Share Meal button.
+Then fill in the meal name and description fields.
+Then pick a random option from the Cuisine and Difficulty dropdowns.
+Then fill in a value for the Cooking time.
+Then click the Share Meal button at the bottom of the page.
+Then verify that the user is being redirected to the feed page and a pop up displaynig 'Meal shared successfully! 🎉' shows up.
+Preffer using data-testid locators at all times.
